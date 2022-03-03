@@ -1,0 +1,130 @@
+::placeholder {
+  font-size: 1rem;
+}
+
+input {
+  height: 4rem;
+  width: 25rem;
+  background-color: #eeeeee;
+  border-radius: 0.5rem;
+  border: 0;
+  padding-left: 1rem;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button {
+  width: 20rem;
+  height: 3rem;
+  background-color: #00adb5;
+  border-radius: 0.5rem;
+  border: 0;
+  font-size: 1.25rem;
+  color: #eeeeee;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: #00676d;
+}
+
+p {
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+h1 {
+  color: #eeeeee;
+  font-size: 3rem;
+}
+
+hr {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+.Router {
+  width: 100%;
+  height: 100%;
+}
+
+.Login {
+  height: 40rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Register {
+  height: 50rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Button {
+  background-color: #28af77;
+  transition: 0.25s;
+}
+
+.Button:hover {
+  background-color: #1b7751;
+}
+
+.CenteredContainer {
+  background-color: #3a4750;
+  border-radius: 1rem;
+}
+
+.Logo-Container {
+  display: flex;
+  width: 100%;
+  height: 15%;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+}
+
+.Input-Container {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 45%;
+  gap: 1rem;
+}
+
+.Button-Container {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+}
+
+.Button-Container-div {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HR-Container {
+  width: 100%;
+  height: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
