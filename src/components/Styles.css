@@ -26,6 +26,7 @@ button {
   font-weight: 600;
   cursor: pointer;
   transition: 0.25s;
+  margin: 1rem;
 }
 
 button:hover {
@@ -35,16 +36,20 @@ button:hover {
 p {
   color: #eeeeee;
   cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   color: #eeeeee;
   font-size: 3rem;
+  margin: 0;
+  margin-top: 1rem;
 }
 
 hr {
   width: 80%;
-  margin: 0;
+  margin: 1.5rem;
   padding: 0;
 }
 
@@ -54,7 +59,7 @@ hr {
 }
 
 .Login {
-  height: 40rem;
+  height: auto;
   width: 40rem;
   display: flex;
   flex-direction: column;
@@ -62,7 +67,7 @@ hr {
 }
 
 .Register {
-  height: 50rem;
+  height: auto;
   width: 40rem;
   display: flex;
   flex-direction: column;
@@ -83,33 +88,57 @@ hr {
   border-radius: 1rem;
 }
 
-.Logo-Container {
+.Login-Logo-Container {
   display: flex;
   width: 100%;
-  height: 15%;
-  background-color: aqua;
   align-items: center;
   justify-content: center;
 }
 
-.Input-Container {
-  background-color: aquamarine;
+.Login-Input-Container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 45%;
+  height: 15rem;
   gap: 1rem;
 }
 
-.Button-Container {
+.Login-Button-Container {
   width: 100%;
-  height: 40%;
+  height: 15rem;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: blue;
+}
+
+.Register-Logo-Container {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Register-Input-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30rem;
+  gap: 1rem;
+}
+
+.Register-Button-Container {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Button-Container-div {

@@ -5,17 +5,17 @@ const Register = () => {
   const history = useHistory();
   return (
     <div className="Register">
-      <div className="Logo-Container">
+      <div className="Register-Logo-Container">
         <h1>REGISTER</h1>
       </div>
-      <div className="Input-Container">
+      <div className="Register-Input-Container">
         <input placeholder="Name" type="text"></input>
         <input placeholder="Username" type="text"></input>
         <input placeholder="Email" type="text"></input>
         <input placeholder="Password" type="password"></input>
         <input placeholder="Confirm Password" type="password"></input>
       </div>
-      <div className="Button-Container">
+      <div className="Register-Button-Container">
         <div className="Button-Container-div">
           <button>Register</button>
         </div>
